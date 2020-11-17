@@ -5,16 +5,12 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 
-impot java.util.ArrayList;
-
 @RestController
 @EnableAutoConfiguration
 public class Application {
 
-    int a=0,b=1000000,c;
+int a=0,b=1000000,c;
 float x,y,z;
-
-ArrayList<String> dummy = new ArrayList<String>();
 
     @RequestMapping("/")
     String home() {
