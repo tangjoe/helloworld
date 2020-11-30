@@ -13,6 +13,7 @@ public class Application {
 
 int a=0,b=1000000,c;
 float x,y,z;
+char tmp[100], *dest;
 
     @RequestMapping("/")
     String home() {
@@ -27,5 +28,6 @@ float x,y,z;
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
         System.out.println("End of code here ...");
+        strcpy(tmp, dest);
     }
 }
