@@ -26,4 +26,6 @@ float x,y,z;
         SpringApplication.run(Application.class, args);
     }
 
+    System.out.println("End of code here ...");
+
 }
